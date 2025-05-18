@@ -1,32 +1,87 @@
 # Controller-Mapper
 
-Simple python based app to allow using a controller as a mouse input.
-feel free to surf the web _sans mouse_!
+A lightweight, Python-based application that allows you to use a controller as a mouse, making it possible to navigate your PC without a traditional mouse.
+Ideal for browsing the web or casual desktop use from the comfort of your couch.
 
-if you want the plug and play download, [click me](https://github.com/Ronnie-Reagan/Controller-Mapper/releases/download/Controller-Mapper/Controller.Mouse.V1.0.exe) for version 1.0
+## Key Features
 
-Dev Stuff below
+- Seamless controller-to-mouse mapping  
+- Customizable control calibration  
+- Simple, plug-and-play experience  
+- Compatible with most XInput controllers (e.g., Xbox 360, Xbox One)  
 
-Dependencies to run locally:
-  - python(I used 3.12.6)
-  - os
-  - json
-  - time
-  - threading
-  - pygame
-  - tkinter
-  - pynput
+---
 
-Created Files:
-  root/controller_mapping_config.json
+## Getting Started
 
-May not function as expected on a non-windows machine
+### 1. Installation
 
-I used pyinstaller to compile the exe with the following command+args
-  `pyinstaller --onefile --clean --windowed --name "Controller Mouse V1.0" mark10.py`
+To use the precompiled version (recommended), download the latest release:  
 
-Designed and tested for right handed people and the XInput input from a Microsoft Authentic Xbox 360 controller
+- [Download Controller Mouse V1.0](https://github.com/Ronnie-Reagan/Controller-Mapper/releases/download/Controller-Mapper/Controller.Mouse.V1.0.exe)  
 
-It has various bugs and errors but you know what? it works on my machine!
+Alternatively, run the project from source:  
 
-Thanks for checking it out and have a good day :)
+**Dependencies:**  
+- Python 3.12.6 (tested)  
+- Required packages: os, json, time, threading, pygame, tkinter, pynput  
+
+Install dependencies with:  
+`pip install pygame pynput`
+---
+
+### 2. Setup
+
+- Connect your controller to your PC (must be recognized as player 1)  
+- Launch the application  
+- If no window appears, ensure your controller is connected and recognized as player 1  
+
+---
+
+### 3. Calibrating Controls
+
+- Click "Calibrate Controls" in the app  
+- Follow the on-screen prompts to map your desired inputs  
+- Note: Settings changed via the GUI are **not saved**  
+
+---
+
+### 4. Manual Configuration (Optional)
+
+For persistent settings, manually edit the **controller_mapping_config.json** file in the root directory. This file is created automatically after the first run.  
+
+---
+
+## Developer Notes
+
+To build the project locally:  
+`pyinstaller --onefile --clean --windowed --name "Controller Mouse HomeBrew" mark10.py`
+---
+
+### Platform Support
+
+- Designed primarily for Windows (may not function as expected on non-Windows systems)  
+- Optimized for right-handed users and Microsoft Xbox 360 controllers  
+
+---
+
+### Known Issues
+
+- Incomplete error handling  
+- Potential bugs depending on controller model  
+
+---
+
+## Contributing
+
+Contributions are welcome! If you encounter bugs or have ideas for improvements, feel free to open an issue or submit a pull request.  
+
+---
+
+## License
+
+This project is open-source under the [MIT License](https://github.com/Ronnie-Reagan/Controller-Mapper/tree/main?tab=MIT-1-ov-file#).  
+
+---
+
+Thanks for checking it out and have a good day!
