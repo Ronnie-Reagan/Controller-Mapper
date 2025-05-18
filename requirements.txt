@@ -1,0 +1,11 @@
+python==3.12.6
+
+os
+json
+time
+threading
+
+tkinter
+
+pygame==2.5.0
+pynput==1.8.0
