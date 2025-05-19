@@ -8,4 +8,4 @@ threading
 tkinter
 
 pygame==2.5.0
-pynput==1.8.0
+pynput==1.8.1
