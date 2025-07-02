@@ -18,7 +18,10 @@ Ideal for browsing the web or casual desktop use from the comfort of your couch.
 
 To use the precompiled version (recommended), download the latest release:  
 
-- [Download Controller Mouse V1.0](https://github.com/Ronnie-Reagan/Controller-Mapper/releases/download/Controller-Mapper/Controller.Mouse.V1.0.exe)  
+- [Download Controller Mouse V2.0](https://github.com/Ronnie-Reagan/Controller-Mapper/releases/download/Controller-Mapper2/Controller.Mapper.V2.0.exe)
+
+Preceding Release:
+- [Download Controller Mouse V1.0](https://github.com/Ronnie-Reagan/Controller-Mapper/releases/download/Controller-Mapper/Controller.Mouse.V1.0.exe)
 
 Alternatively, run the project from source:  
 
