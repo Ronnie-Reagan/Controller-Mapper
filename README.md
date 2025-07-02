@@ -55,7 +55,7 @@ For persistent settings, manually edit the **controller_mapping_config.json** fi
 ## Developer Notes
 
 To build the project locally:  
-`pyinstaller --onefile --clean --windowed --name "Controller Mouse HomeBrew" mark10.py`
+`pyinstaller --onefile --clean --windowed --name "Controller Mouse HomeBrew" mark11.py`
 ---
 
 ### Platform Support
